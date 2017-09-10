@@ -33,8 +33,8 @@ class Song
   end
 
   def Song.artist_count
-    Hash[@@artist.map { |element|
-        [element, @@genres.count(element)]
+    Hash[@@artists.map { |element|
+        [element, @@artists.count(element)]
     }]
   end
 end
