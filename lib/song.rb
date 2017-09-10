@@ -28,7 +28,7 @@ class Song
 
   def Song.genre_count
     genres.map { |element|
-      element
+      element("1")
     }
   end
 
