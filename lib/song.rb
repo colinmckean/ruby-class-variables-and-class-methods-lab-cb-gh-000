@@ -18,6 +18,9 @@ class Song
     @@count
   end
 
+  def Song.artists
+  end
+
   def Song.genres
     @@genresunique = @@genresunique.uniq
   end
