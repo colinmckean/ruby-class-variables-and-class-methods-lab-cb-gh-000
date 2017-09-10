@@ -28,7 +28,7 @@ class Song
 
   def Song.genre_count
     Hash[genres.map { |element|
-        [element. this.count(element)]
+        [element. genres.count(element)]
     }]
   end
 
