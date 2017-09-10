@@ -27,7 +27,7 @@ class Song
   end
 
   def Song.genre_count
-    Hash[genres.map { |element, hash|
+    Hash[genres.map { |element|
       if self[element] == nil
         [element, [element] + 10]
       else
