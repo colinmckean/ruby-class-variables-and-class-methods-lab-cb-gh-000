@@ -27,7 +27,8 @@ class Song
   end
 
   def Song.genre_count
-
+    genres.map { |element|
+    }
   end
 
   def Song.artist_count
