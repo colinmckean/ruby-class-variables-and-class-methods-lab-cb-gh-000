@@ -31,7 +31,7 @@ class Song
       if [element] == nil
         [element, [element] + 10]
       else
-        [element, [element][0]]
+        [element, + 1]
       end
     }]
   end
