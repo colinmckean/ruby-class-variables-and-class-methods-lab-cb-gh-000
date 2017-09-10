@@ -28,7 +28,7 @@ class Song
 
   def Song.genre_count
     Hash[genres.map { |element|
-      if [element] == nil
+      if [element] != nil
         [element, 1]
       end
     }]
