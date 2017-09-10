@@ -19,6 +19,7 @@ class Song
   end
 
   def Song.artists
+    @@artists
   end
 
   def Song.genres
