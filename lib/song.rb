@@ -8,4 +8,8 @@ class Song
     @genre = genre
 
   end
+
+  def class_variable_get(variable)
+    return this.variable    
+  end
 end
