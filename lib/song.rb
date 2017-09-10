@@ -27,8 +27,8 @@ class Song
   end
 
   def Song.genre_count
-    Hash[genres.map { |element|
-        [element, genres.count(element)]
+    Hash[@@genres.map { |element|
+        [element, @@genres.count(element)]
     }]
   end
 
