@@ -1,5 +1,5 @@
 class Song
-  attr_reader :name, :artist, :genre, :count
+  attr_reader :name, :artist, :genre
   attr_accessor :count
   @@count = 0
   @@artists = []
@@ -13,7 +13,7 @@ class Song
     @@genres << genre
   end
 
-  # def class_variable_get(variable)
-  #   return this.variable
-  # end
+  def count
+    @@count
+  end
 end
