@@ -18,7 +18,7 @@ class Song
   end
 
   def Song.genres
-    @@genresunique.uniq
+    @@genresunique.uniq!
   end
 
   def genre_count
